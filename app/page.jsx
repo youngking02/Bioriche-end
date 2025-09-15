@@ -114,7 +114,7 @@ export default function Home() {
     ease: "easeOut",
   }}
   viewport={{ once: true }}
-  className="text-2xl text-white leading-relaxed "
+  className="text-2xl text-white leading-relaxed space-y-4"
 >
   <p>
     <strong className="brush-script">BioRiche</strong> est la marque d’excellence
@@ -155,7 +155,7 @@ export default function Home() {
               ease: "easeOut",
             }}
             viewport={{ once: true }}
-            className=" flex justify-center"
+            className=" flex justify-center mt-3"
           >
             <Link
               href="/a-propos"

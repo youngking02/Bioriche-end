@@ -13,7 +13,7 @@ export default function Page() {
   // Générer le message WhatsApp
   function buildOrderText(customer, items, total) {
     const lines = [];
-    lines.push("🛒 NOUVELLE COMMANDE BIORICH");
+    lines.push("🛒 NOUVELLE COMMANDE BioRiche");
     lines.push(`Nom: ${customer.firstName || ""} ${customer.lastName || ""}`);
     lines.push(`Téléphone: ${customer.phone || ""}`);
     lines.push(`Email: ${customer.email || ""}`);
