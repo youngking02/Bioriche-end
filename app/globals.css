@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --radius: 16px; }
+html, body { scroll-behavior: smooth; }
+body { @apply bg-white text-gray-800; }
+
+.container-max { @apply max-w-full mx-auto px-5; }
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl2 px-4 py-2 font-medium transition;
+}
+.btn-primary { @apply btn bg-primary text-white text-lg h-12 hover:bg-primary-dark; }
+.btn-ghost { @apply btn bg-white/80 backdrop-blur hover:bg-white shadow-soft; }
+.card { @apply rounded-2xl bg-white shadow-soft; }
+.badge { @apply inline-flex items-center rounded-full border px-3 py-1 text-xs; }
+
+/* Page transition */
+.page-enter { opacity: 0; transform: translateY(8px) scale(.995); }
+.page-enter-active { opacity: 1; transform: none; transition: all .5s cubic-bezier(.2,.7,.2,1); }
+.page-exit { opacity: 1; }
+.page-exit-active { opacity: 0; transform: translateY(6px); transition: all .35s ease; }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Brush Script MT';
+  src: local('Brush Script MT');
+}
+
+.brush-script {
+  font-family: 'Brush Script MT', cursive !important;
+}

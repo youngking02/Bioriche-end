@@ -1,0 +1,13 @@
+# Ignorer les fichiers lourds
+*.zip
+*.rar
+*.mp4
+*.avi
+*.mkv
+*.exe
+
+node_modules/
+.next/
+*.log
+.DS_Store
+.env
