@@ -14,14 +14,14 @@ export default function Hero() {
       cta: "Découvrir nos produits",
     },
     {
-      src: "/tomate.jpg",
+      src: "/tomate.JPG",
       cover: false,
       title: "Boostez vos récoltes naturellement",
       text: "Des engrais bio adaptés aux cultures locales pour des résultats visibles.",
       cta: "Découvrir nos produits",
     },
     {
-      src: "/paysanbioriche.jpg",
+      src: "/paysanbioriche.JPG",
       cover: false,
       title: "Des solutions pour les agriculteurs avec BioRiche",
       text: "BioRiche accompagne les producteurs avec des produits innovants et respectueux de l’environnement.",

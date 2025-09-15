@@ -30,7 +30,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center font-semibold" onClick={() => setOpen(false)}>
           <Image
-            src="/logooo.png"
+            src="/Logooo.png"
             alt="BioRiche Logo"
             width={240}
             height={60}
