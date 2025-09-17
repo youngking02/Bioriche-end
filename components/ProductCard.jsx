@@ -7,6 +7,20 @@ import ProductModal from "./ProductModal";
 export default function ProductCard({ product }) {
   const [openModal, setOpenModal] = useState(false);
 
+  // Fonction qui colore les litrage (5L, 1L, 500mL, 250mL) en rouge
+  function highlightVolume(text) {
+    const regex = /(5L|1L|500mL|250mL)/gi;
+    return text.split(regex).map((part, i) =>
+      regex.test(part) ? (
+        <span key={i} className="text-red-600 font-semibold">
+          {part}
+        </span>
+      ) : (
+        part
+      )
+    );
+  }
+
   return (
     <>
       {/* Carte Produit */}
@@ -21,8 +35,8 @@ export default function ProductCard({ product }) {
         <div className="overflow-hidden rounded-full bg-soft flex justify-center items-center">
           <Image
             src={product.image}
-            width={300}       // ← largeur réduite
-            height={300}      // ← hauteur réduite
+            width={300}
+            height={300}
             alt={product.name}
             className="object-cover rounded-full"
           />
@@ -30,7 +44,9 @@ export default function ProductCard({ product }) {
 
         {/* Infos produit */}
         <div className="mt-3 text-center">
-          <h3 className="font-bold text-2xl text-green-700">{product.name}</h3>
+          <h3 className="font-bold text-2xl text-green-700">
+            {highlightVolume(product.name)}
+          </h3>
           <p className="text-lg text-gray-600">{product.subtitle}</p>
           <div className="mt-3 flex items-center justify-between">
             <span className="font-bold text-lg text-yellow-600">

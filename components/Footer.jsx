@@ -20,11 +20,8 @@ export default function Footer() {
             Cultivez la santé, récoltez l'abondance.
           </p>
           <div className="flex gap-4 mt-5">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 hover:bg-green-700 rounded-full transition">
+            <a href="https://www.facebook.com/share/1AxwitDeqG/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 hover:bg-green-700 rounded-full transition">
               <FaFacebookF size={18} />
-            </a>
-            <a href="https://TikTok.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 hover:bg-green-700 rounded-full transition">
-              <FaTiktok size={18} />
             </a>
             <a href="https://wa.me/22997178417" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 hover:bg-green-700 rounded-full transition">
               <FaWhatsapp size={18} />
@@ -32,6 +29,10 @@ export default function Footer() {
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 hover:bg-green-700 rounded-full transition">
               <FaYoutube size={18} />
             </a>
+            <a href="https://TikTok.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 hover:bg-green-700 rounded-full transition">
+              <FaTiktok size={18} />
+            </a>
+            
           </div>
         </div>
 

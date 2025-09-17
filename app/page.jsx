@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* Grille des produits */}
         <div className="grid md:grid-cols-3 gap-6 mt-10">
-          {[SOLIDS[0], SOLIDS[1], LIQUIDS[0]].map((p, index) => (
+          {[SOLIDS[0], LIQUIDS[0], LIQUIDS[1]].map((p, index) => (
             <motion.div
               key={p.id}
               initial={{ y: 120, opacity: 0 }}

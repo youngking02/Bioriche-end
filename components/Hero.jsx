@@ -52,8 +52,9 @@ export default function Hero() {
   }
 
   return (
-    <section className="container-max my-8 md:my-10 pt-32">
-      <div className="relative overflow-hidden rounded-2xl h-[730px] md:h-[430px] bg-black">
+    <section className="md:container-max my-8 md:my-10 pt-32">
+      <div className="relative overflow-hidden  h-[330px] md:h-[430px] bg-black">
+
         <AnimatePresence>
           <motion.div
             key={current}
@@ -69,7 +70,7 @@ export default function Hero() {
                 src={images[current].src}
                 alt={`Background blurred ${current + 1}`}
                 fill
-                className="object-cover blur-2xl scale-110"
+                className="md:object-cover blur-2xl scale-110"
                 aria-hidden="true"
               />
             )}
