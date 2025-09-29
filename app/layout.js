@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "BIORICH – Engrais biologiques",
-  description: "BIORICH: Nourrir la terre, cultiver l'avenir",
+  title: "BIORICHE – Engrais biologiques",
+  description: "BIORICHE: Nourrir la terre, cultiver l'avenir",
 };
 
 export default function RootLayout({ children }) {
