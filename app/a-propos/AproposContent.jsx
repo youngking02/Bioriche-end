@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import Image from "next/image";
 
 const equipe = [
-  { id: 1, name: "BOCO S. Hyacinthe", role: "Co-fondateur & Gérant", img: "/hyacinthe.jpg" },
+  { id: 1, name: "BOCO S. Hyacinthe", role: "Co-fondateur & Gérant", img: "/unknow.jpg" },
   { id: 2, name: "HOUNDEGNON Baudouin", role: "Chargé de Communication", img: "/Baudouin.jpg" },
   { id: 3, name: "BONOU-LOKO Amos", role: "Marketing Manager", img: "/agnes.jpg" },
 ];
